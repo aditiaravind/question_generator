@@ -32,10 +32,12 @@ file = open(infile,'r', encoding='utf-8') #change as required in website
 text = file.read()
 n = 10 #number of questions (change as required, maybe take input?)
 questions = generateQuestions(text, n)
+output = json.dumps(questions)
+#this ^is the final output. 
+#the same is also saved in output.txt
 with open(outfile, 'w') as outfile:
     for i in range(len(questions)):
         json.dump(questions[i], outfile)
-
 
 #Functions
 def dumpPickle(fileName, content):
