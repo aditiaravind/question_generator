@@ -1,0 +1,42 @@
+
+
+Openness and Transparency. There should be a general policy of openness about developments, practices, and policies with respect to personal data. Individuals should be able to know what information exists about them, the purpose of its use, who can access and use it, and where it resides.
+
+Purpose Specification and Minimization. The purposes for which personal data are collected should be specifi ed at the time of collection, and the subsequent use should be limited to those purposes or others that are specifi ed on each occasion of change of purpose.
+
+Collection Limitation. Personal health information should only be collected for specified purposes, should be obtained by lawful and fair means and, where possible, with the knowledge or consent of the data subject.
+
+Use Limitation. Personal data should not be disclosed, made available, or otherwise used for purposes other than those specifi ed.
+
+Individual Participation and Control. Individuals should control access to their personal information:
+
+• Individuals should be able to obtain from each entity that controls personal health data, information about whether or not the entity has data relating to them. Individuals should have the right to:
+• Have personal data relating to them communicated within a reasonable time (at an affordable charge, if any), and in a form that is readily understandable;
+• Be given reasons if a request (as described above) is denied, and to be able to challenge such denial; and
+• Challenge data relating to them and have it rectifi ed, completed, or amended.
+
+Data Integrity and Quality. All personal data collected should be relevant to the purposes for which they are to be used and should be accurate, complete, and current.
+
+Security Safeguards and Controls. Personal data should be protected by reasonable security safeguards against such risks as loss or unauthorized access, destruction, use, modifi cation, or disclosure.
+
+Accountability and Oversight. Entities in control of personal health data must be held accountable for implementing these information practices.
+
+Remedies. Legal and financial remedies must exist to address any security breaches or privacy violations.
+
+	Technology principles
+
+Make it “Thin”. Only the minimum number of rules and protocols essential to widespread exchange of health information should be specified as part of a Common Framework. It is desirable to leave to the local systems those things best handled locally, while specifying at a national level those things required as universal in order to allow for exchange among subordinate networks.
+
+Avoid “Rip and Replace”. Any proposed model for health information exchange must take into account the current structure of the healthcare system. While some infrastructure may need to evolve, the system should take advantage of what has been deployed today. Similarly, it should build on existing Internet capabilities, using appropriate standards for ensuring secure transfer of information.
+
+Separate Applications from the Network. The purpose of the network is to allow authorized persons to access data as needed. The purpose of applications is to display or otherwise use that data once received. The network should be designed to support any and all useful types of applications, and applications should be designed to take data in from the network in standard formats.
+This allows new applications to be created and existing ones upgraded without re-designing the network itself.
+
+Decentralization. Data stay where they are. The decentralized approach leaves clinical data in the control of those providers with a direct relationship with the patient, and leaves judgments about who should and should not see patient data in the hands of the patient and the physicians and institutions that are directly involved with his or her care.
+
+Federation. The participating members of a health network must belong to and comply with agreements of a federation. Federation, in this view, is a response to the organizational difficulties presented by the fact of decentralization. Formal federation with clear agreements builds trust that is essential to the exchange of health information.
+
+Flexibility. Any hardware or software can be used for health information exchange as long as it conforms to a Common Framework of essential requirements. The network should support variation and innovation in response to local needs. The network must be able to scale and evolve over time.
+
+Privacy and Security. All health information exchange, including in support of the delivery of care and the conduct of research and public health reporting, must be conducted in an environment of trust, based upon conformance with appropriate requirements for patient
+privacy, security, confidentiality, integrity, audit, and informed consent.
