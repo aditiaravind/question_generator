@@ -20,10 +20,22 @@ from gensim.models import KeyedVectors
 #from gensim.scripts.glove2word2vec import glove2word2vec
 
 #Paths to extra files to be changed to relative paths
-picklepath = 'data/pickles/nb-predictor.pkl'
-tmp_file = 'data/embeddings/word2vec-glove.6B.300d.txt' #output path
-infile = 'data/input.txt'
-outfile = 'data/output.txt'
+picklepath = 'pickles/nb-predictor.pkl'
+tmp_file = 'embeddings/word2vec-glove.6B.300d.txt' #output path
+infile = 'input.txt'
+outfile = 'output.txt'
+
+#Main Code
+
+#model = KeyedVectors.load_word2vec_format(tmp_file) #run only once
+file = open(infile,'r', encoding='utf-8') #change as required in website
+text = file.read()
+n = 10 #number of questions (change as required, maybe take input?)
+questions = generateQuestions(text, n)
+with open(outfile, 'w') as outfile:
+    for i in range(len(questions)):
+        json.dump(questions[i], outfile)
+
 
 #Functions
 def dumpPickle(fileName, content):
