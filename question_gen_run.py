@@ -320,14 +320,4 @@ def generateQuestions(text, count):
     return questions
 
 
-#Main Code
-
-#model = KeyedVectors.load_word2vec_format(tmp_file) #run only once
-file = open(infile,'r', encoding='utf-8') #change as required in website
-text = file.read()
-n = 10 #number of questions (change as required, maybe take input?)
-questions = generateQuestions(text, n)
-with open(outfile, 'w') as outfile:
-    for i in range(len(questions)):
-        json.dump(questions[i], outfile)
 
